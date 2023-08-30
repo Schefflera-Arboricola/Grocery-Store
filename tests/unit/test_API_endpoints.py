@@ -8,7 +8,7 @@ Test flow :
 from bs4 import BeautifulSoup
 from ..conftests import app
 
-app_instance=app()
+app_instance=app
 
 def get_test_developer_info():
     developer_id=1

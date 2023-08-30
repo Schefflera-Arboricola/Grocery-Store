@@ -1,7 +1,6 @@
 import pytest
-from main import create_app
+from main import app
 
 @pytest.fixture
 def app():
-    app, api = create_app()
     return app

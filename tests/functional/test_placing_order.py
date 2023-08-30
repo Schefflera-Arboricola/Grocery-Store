@@ -21,7 +21,7 @@ from bs4 import BeautifulSoup
 from application.models import *
 from ..conftests import app
 
-app_instance=app()
+app_instance=app
 
 def get_test_store_manager_info():
     store_manager_id=1
